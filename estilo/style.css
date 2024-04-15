@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    height: 0px;
+}
+
+:root{
+    --cor0:#bd165b ;
+    --cor1:#0b0e07;
+    --cor2:#0c3620 ;
+    --cor3:#0c4d2f ;
+    --cor4:#8a1043 ;
+    --cor5:#550a28 ;
+    --cor6:#391322;
+    --cor7:#FFFFFF;
+}
+
+body{
+    background-color: var(--cor0);
+}
+
+.header{
+    border-color: var(--cor7);
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    width: 100%;
+    height: 9vw;
+    background-size: 400% 400%;
+    background: linear-gradient(90deg, rgb(22, 0, 0),black,rgb(22, 0, 0));
+    animation: mygradient 3s ease infinite;
+}
+
+@keyframes mygradient {
+    0% {
+        background-position: 0% 25%;
+    }
+    25% {
+        background-position: 50% 25%;
+    }
+    50% {
+        background-position: 0% 25%;
+    }
+    75%{
+        background-position: 75% 50%;
+    }
+    100%{
+        background-position: 100%, 75%;
+    }
+}
+
+.img_menu{
+    background-color: aliceblue;
+    height: 9vw;
+    width: 8vw;
+    background:rgb(14, 0, 0);
+}
+
+.img_menu:hover{
+    box-shadow: #FFFFFF;
+    animation: 2s;
+}
+
+
+.nav{
+
+}
+
+
+.footer{
+
+}
