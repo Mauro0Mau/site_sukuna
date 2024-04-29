@@ -13,6 +13,7 @@
     padding: 0;
     background-color:#000000 ;
 }
+
 #menu ul li{
     display: inline; 
 }
@@ -22,11 +23,13 @@
     padding: 50px;
     text-decoration: none;
     display: inline-block;
-    transition: background .6s;
+    transition: background .9s;
 }
 
 #menu ul li a:hover{
      background-color: #550a28 ;
+     border-radius: 10px;
+     transition: 1s;
 }
 :root{
     --cor0:#bd165b ;
@@ -86,19 +89,19 @@ body{
     animation: 2s;
 }
 
-/*nav a{
+nav a{
     color: aliceblue;
     font-family: var(--fonte-1);
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 4px;
     margin: 10px;
     text-decoration: none;
     text-align: center;
     display: inline;
     transition: 1s;
-}*/
+}
 
-nav a:hover{
+/*nav a:hover{
     color: rgb(69, 2, 2);
     background-color: #FFFFFF;
     border-radius: 0px 0px 5px 5px;
@@ -110,13 +113,5 @@ nav a:hover{
     text-align: center;
     display: inline;
     transition: 1s;
-}
+}*/
 
-.nav{
-
-}
-
-
-.footer{
-
-}
