@@ -3,10 +3,31 @@
 
 
 *{
-    margin: 0px;
-    height: 0px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+#menu{
+    list-style: none;
+    padding: 0;
+    background-color:#000000 ;
+}
+#menu ul li{
+    display: inline; 
+}
+
+#menu ul li a{
+    color:#FFFFFF;
+    padding: 50px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .6s;
+}
+
+#menu ul li a:hover{
+     background-color: #550a28 ;
+}
 :root{
     --cor0:#bd165b ;
     --cor1:#0b0e07;
