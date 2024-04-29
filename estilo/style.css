@@ -1,6 +1,12 @@
 /*Fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+@font-face {
+    font-family: 'JMH Typewriter';
+    src: url('JMH Typewriter.otf') format('opentype'), url('JMH Typewriter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 *{
     margin: 0 auto;
@@ -33,6 +39,15 @@
      transition: 1s;
 }
 
+.titulo-menu{
+    color: aliceblue; 
+    padding: 50px;
+    font-family: 'JMH Typewriter.otf', sans-serif;
+    margin: 0px 10px 0px 25%;
+    background-color: #8a1043;
+    text-decoration: none;
+    display: inline-block;
+}
 :root{
     --cor0:#bd165b ;
     --cor1:#0b0e07;
@@ -105,3 +120,9 @@ nav a{
     transition: 1s;
 }*/
 
+.resumo-sukuna{
+    background-color: #0c4d2f;
+    height: 50px;
+    width: 98%;
+    margin-top: 15px;
+}
