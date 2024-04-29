@@ -18,6 +18,7 @@
     list-style: none;
     padding: 0;
     background-color:#000000 ;
+    box-shadow: 0px 1px 3px 0px white;
 }
 
 #menu ul li{
@@ -121,8 +122,32 @@ nav a{
 }*/
 
 .resumo-sukuna{
-    background-color: #0c4d2f;
-    height: 50px;
-    width: 98%;
-    margin-top: 15px;
+    background-color: var(--cor4);
+    border: solid var(--cor7);
+    border-radius: 5px;
+    height: 40vw;
+    width: 97%;
+    margin-top: 20px;
+}
+
+.resumo-sukuna h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.7em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resumo-sukuna p{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resumo-sukuna img{
+    
+    height: 50%;
 }
