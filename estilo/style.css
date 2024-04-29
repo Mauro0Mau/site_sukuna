@@ -18,19 +18,21 @@
     display: inline; 
 }
 
-#menu ul li a{
+#menu ul li a {
     color:#FFFFFF;
     padding: 50px;
+    margin: 0px 10px 0px 10px;
     text-decoration: none;
     display: inline-block;
-    transition: background .9s;
+    transition: 1s;
 }
 
 #menu ul li a:hover{
      background-color: #550a28 ;
-     border-radius: 10px;
+     border-radius: 5px;
      transition: 1s;
 }
+
 :root{
     --cor0:#bd165b ;
     --cor1:#0b0e07;
@@ -77,22 +79,10 @@ body{
     }
 }
 
-.img_menu{
-    background-color: aliceblue;
-    height: 9vw;
-    width: 8vw;
-    background:#110000;
-}
-
-.img_menu:hover{
-    box-shadow: #FFFFFF;
-    animation: 2s;
-}
-
 nav a{
     color: aliceblue;
     font-family: var(--fonte-1);
-    font-size: 1em;
+    font-size: 1.1em;
     padding: 4px;
     margin: 10px;
     text-decoration: none;
