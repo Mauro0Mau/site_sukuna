@@ -9,25 +9,9 @@
 }
 
 *{
-    padding: 0px;
-    margin: 0px;
-}
-
-:root{
-    --cor0:#bd165b ;
-    --cor1:#0b0e07;
-    --cor2:#0c3620 ;
-    --cor3:#0c4d2f ;
-    --cor4:#8a1043 ;
-    --cor5:#550a28 ;
-    --cor6:#391322;
-    --cor7:#FFFFFF;
-
-    --fonte-1: 'Ubuntu', sans-serif;
-}
-
-body{
-    background-color: var(--cor0);
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #menu{
@@ -66,6 +50,23 @@ body{
     display: inline-block;
 }
 
+:root{
+    --cor0:#bd165b ;
+    --cor1:#0b0e07;
+    --cor2:#0c3620 ;
+    --cor3:#0c4d2f ;
+    --cor4:#8a1043 ;
+    --cor5:#550a28 ;
+    --cor6:#391322;
+    --cor7:#FFFFFF;
+
+    --fonte-1: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: var(--cor0);
+}
+
 nav a{
     color: aliceblue;
     font-family: var(--fonte-1);
@@ -75,5 +76,61 @@ nav a{
     text-decoration: none;
     text-align: center;
     display: inline;
+    transition: 1s;
+}
+
+.resumo-sukuna{
+    background-color: var(--cor4);
+    border: solid var(--cor7);
+    border-radius: 5px;
+    height: 210vw;
+    width: 97%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.resumo-sukuna h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resumo-sukuna h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resumo-sukuna p{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resumo-sukuna img{
+    margin: auto;
+    display: block;
+    border: solid black 1px;
+    border-radius: 10px;
+    height: 14%;
+}
+
+.div-links a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.div-links a:hover{
+    color: aliceblue;
+    text-decoration: none;
+    text-shadow: 0px 0px 8px white;
     transition: 1s;
 }

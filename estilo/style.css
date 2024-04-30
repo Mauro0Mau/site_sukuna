@@ -79,20 +79,6 @@ nav a{
     transition: 1s;
 }
 
-/*nav a:hover{
-    color: rgb(69, 2, 2);
-    background-color: #FFFFFF;
-    border-radius: 0px 0px 5px 5px;
-    font-family: var(--fonte-1);
-    font-size: 1.5em;
-    padding: 4px;
-    margin: 10px;
-    text-decoration: none;
-    text-align: center;
-    display: inline;
-    transition: 1s;
-}*/
-
 .resumo-sukuna{
     background-color: var(--cor4);
     border: solid var(--cor7);
