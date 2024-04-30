@@ -49,6 +49,7 @@
     text-decoration: none;
     display: inline-block;
 }
+
 :root{
     --cor0:#bd165b ;
     --cor1:#0b0e07;
@@ -64,35 +65,6 @@
 
 body{
     background-color: var(--cor0);
-}
-
-.header{
-    border-color: var(--cor7);
-    border-style: solid;
-    border-width: 0px 0px 2px 0px;
-    width: 100%;
-    height: 9vw;
-    background-size: 400% 400%;
-    background: linear-gradient(90deg, rgb(22, 0, 0),black,rgb(22, 0, 0));
-    animation: mygradient 3s ease infinite;
-}
-
-@keyframes mygradient {
-    0% {
-        background-position: 0% 25%;
-    }
-    25% {
-        background-position: 50% 25%;
-    }
-    50% {
-        background-position: 0% 25%;
-    }
-    75%{
-        background-position: 75% 50%;
-    }
-    100%{
-        background-position: 100%, 75%;
-    }
 }
 
 nav a{
@@ -125,15 +97,23 @@ nav a{
     background-color: var(--cor4);
     border: solid var(--cor7);
     border-radius: 5px;
-    height: 40vw;
+    height: 210vw;
     width: 97%;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .resumo-sukuna h1{
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 1.7em;
+    font-size: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resumo-sukuna h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -142,11 +122,29 @@ nav a{
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 20px;
+    margin-bottom: 50px;
     font-size: 1.5em;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .resumo-sukuna img{
-    height: 50%;
+    margin: auto;
+    display: block;
+    border: solid black 1px;
+    border-radius: 10px;
+    height: 14%;
+}
+
+.div-links a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.div-links a:hover{
+    color: aliceblue;
+    text-decoration: none;
+    text-shadow: 0px 0px 8px white;
+    transition: 1s;
 }
