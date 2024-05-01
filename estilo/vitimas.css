@@ -19,7 +19,6 @@
     padding: 0;
     background-color:#000000 ;
     box-shadow: 0px 1px 3px 0px white;
-    text-align: center;
 }
 
 #menu ul li{
@@ -80,17 +79,17 @@ nav a{
     transition: 1s;
 }
 
-.feitos{
+.resumo-sukuna{
     background-color: var(--cor4);
     border: solid var(--cor7);
     border-radius: 5px;
-    height: 240vw;
+    height: 210vw;
     width: 97%;
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
-.feitos h1{
+.resumo-sukuna h1{
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 2em;
@@ -98,14 +97,14 @@ nav a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.feitos h2{
+.resumo-sukuna h2{
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.feitos p{
+.resumo-sukuna p{
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 20px;
@@ -115,12 +114,12 @@ nav a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.feitos img{
+.resumo-sukuna img{
     margin: auto;
     display: block;
     border: solid black 1px;
     border-radius: 10px;
-    height: 12%;
+    height: 14%;
 }
 
 .div-links a{

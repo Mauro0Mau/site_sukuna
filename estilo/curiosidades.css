@@ -56,10 +56,11 @@
     --cor1:#0b0e07;
     --cor2:#0c3620 ;
     --cor3:#0c4d2f ;
-    --cor4:#8a1043 ;
-    --cor5:#550a28 ;
-    --cor6:#391322;
-    --cor7:#FFFFFF;
+    --cor4:#ee3984 ;
+    --cor5:#8a1043 ;
+    --cor6:#550a28 ;
+    --cor7:#391322;
+    --cor8:#FFFFFF;
 
     --fonte-1: 'Ubuntu', sans-serif;
 }
@@ -80,17 +81,17 @@ nav a{
     transition: 1s;
 }
 
-.feitos{
-    background-color: var(--cor4);
+.curiosidade{
+    background-color: var(--cor5);
     border: solid var(--cor7);
     border-radius: 5px;
-    height: 240vw;
+    height: 200vw;
     width: 97%;
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
-.feitos h1{
+.curiosidade h1{
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 2em;
@@ -98,14 +99,14 @@ nav a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.feitos h2{
+.curiosidade h2{
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.feitos p{
+.curiosidade p{
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 20px;
@@ -115,12 +116,12 @@ nav a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.feitos img{
+.curiosidade img{
     margin: auto;
     display: block;
     border: solid black 1px;
     border-radius: 10px;
-    height: 12%;
+    height: 1%;
 }
 
 .div-links a{
@@ -134,4 +135,14 @@ nav a{
     text-decoration: none;
     text-shadow: 0px 0px 8px white;
     transition: 1s;
+}
+
+.ol-feitos{
+    list-style-position: inside;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 1.4em;
+    text-align: center;
 }
